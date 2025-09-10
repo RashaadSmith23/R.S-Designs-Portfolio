@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | R.S Designs</title>
+  <!-- Style CSS Link -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon Link -->
+  <link rel="shortcut icon" href="assets/RS Designs Favicon.ico" type="image/x-icon">
+
+  <!-- Remixicon Link (Note: Must remove later) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+<body>
+
+    <!-- Navigation Section -->
+    <nav id="navbar">
+
+      <!-- Logo Section -->
+      <div class="logo">
+        <a href="/index.html">
+          <img id="site-logo" src="assets/RS Designs Logo.png" alt="RS Designs Site Logo">
+        </a>
+      </div>
+
+      <!-- HamBurger Menu -->
+        <img class="menu-hamburger" src="assets/menu.png" alt="Hamburger Menu" onclick="openMenu()">
+
+      <!-- Main Navigation -->
+      <ul>
+        <img class="close-menu" src="assets/close.png" alt="Close Menu" onclick="closeMenu()">
+        <li><a href="#section1">Home</a></li>
+        <li><a href="#section2">Features</a></li>
+        <li><a href="#section3">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#section4">About</a></li>
+      </ul>
+
+      <!-- Get Started Button -->
+      <button class="btn">Hire Me</button>
+
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="container" id="section1">
+      <div class="content">
+        <div class="intro-container">
+          <h4>CREATE YOUR SITE LIKE A PRO</h4>
+          <h1>Hi, I'm <span>Rashaad Smith</span>, Junior Multimedia Designer</h1>
+        </div>
+        <p>a passionate and creative web designer with 3+ years of experience in crafting visually stunning and user-friendly websites. 
+          My journey into the world of web design started from a love for both art and technology, 
+          leading me to develop a unique skill set that blends aesthetic appeal with functional design.</p>
+        <a href="contact.html"><button class="btn" id="started-btn">Get Started</button></a>
+      </div>
+      <div class="image">
+        <img src="assets/Background.png" alt="">
+      </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <section class="container" id="section2">
+      <h2 class="header">Why Work With Me?</h2>
+      <p>I am dedicated to staying up-to-date with the latest trends and technologies in web design.
+        My goal is to help businesses and individuals establish a strong online presence with websites that are not only visually appealing but also optimized for performance and search engines.
+        I take pride in delivering high-quality work and building long-term relationships with my clients.
+        When I'm not designing, you can find me exploring the latest web design trends, learning new coding techniques, or enjoying a good cup of coffee while sketching new ideas.
+        Let's create something amazing together!
+        Feel free to reach out to me at <a id="link-to-email" href="mailto:srashaad198@gmail.com">srashaad198@gmail.com</a> or connect with me on <a href="https://www.linkedin.com/in/rashaad-smith/">LinkedIn</a>.</p>
+
+      <div class="features">
+        <div class="card">
+          <span class="icon"><i class="ri-lightbulb-flash-line"></i></span>
+          <h4>Skills Overview</h4>
+          <div class="card-desc">
+            <div class="skill-container">
+              <button class="skills-dropdown" data-target="element1">
+                <i class="ri-add-large-line"></i><p>Adobe Suite</p>
+              </button>
+              <div class="dropdown-content" id="element1">
+                <li>Illustrator</li>
+                <li>Photoshop</li>
+                <li>Adobe XD</li>
+                <li>Premiere Pro</li>
+                <li>InDesign</li>
+              </div>
+            </div>
+
+            <div class="skill-container">
+              <button class="skills-dropdown" data-target="element2">
+                <i class="ri-add-large-line"></i><p>Video Graphic</p>
+              </button>
+              <div class="dropdown-content" id="element2">
+                <li>Blender (3D Modeling)</li>
+              </div>
+            </div>
+
+            <div class="skill-container">
+              <button class="skills-dropdown" data-target="element3">
+                <i class="ri-add-large-line"></i><p>Web Design</p>
+              </button>
+              <div class="dropdown-content" id="element3">
+                <li>WordPress</li>
+                <li>Shopify</li>
+                <li>Wix</li>
+                <li>Figma</li>
+                <li>Custom HTML, CSS and JavaScript</li>
+              </div>
+            </div>
+
+            <div class="skill-container">
+              <button class="skills-dropdown" data-target="element4">
+                <i class="ri-add-large-line"></i><p>Additional Skills</p>
+              </button>
+              <div class="dropdown-content" id="element4">
+                <li>UI/UX Design</li>
+                <li>Photography</li>
+                <li>Microsoft Office</li>
+                <li>Image Manipulation</li>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <span class="icon"><i class="ri-donut-chart-line"></i></span>
+          <h4>Mission</h4>
+          <div class="card-desc">
+            <div>
+              <p>As we move closer to a fully digital environment, 
+                I feel my enthusiasm for my profession as a digital designer will become increasingly in demand. 
+                I’m a bold, out-of-the-box designer who feels this area has no bounds. 
+                I value my work, as well as teaching and honing my multimedia skills. 
+                I will not fail you in any manner if I am given the opportunity to prove all of this to you.</p>
+            </div>
+            <div class="quote">
+              <p class="who-said-it">Albert Einstein</p>
+              <p>"CREATIVITY IS INTELLIGENCE HAVING FUN!"</p>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section-container" id="section3">
+      <h2 class="header">Projects</h2>
+      <p class="sub-header">
+        Check out my Projects down below .😇
+      </p>
+
+      <div class="projects">
+        <div class="wrapper" onclick="window.location='/logo-designs.html'">
+          <div class="content">
+            <img src="assets/Background.png">
+            <h2>LOGO DESIGNS</h2>
+            <div class="important">Logos Designed For Companies.</div>
+          </div>
+          <a href="/logo-designs.html"><button class="project-btn">View Project</button></a>
+        </div>
+
+        <div class="wrapper" onclick="window.location='/responsive-designs.html'">
+          <div class="content">
+            <img src="assets/Background.png">
+            <h2>RESPONSIVE DESIGNS</h2>
+            <div class="important">Custom pages/sites designed by R.S Designs.</div>
+          </div>
+          <button class="project-btn">View Project</button>
+        </div>
+
+        <div class="wrapper" onclick="window.location='/blender-projects.html'">
+          <div class="content">
+            <video autoplay muted loop src="assets/Lost Temple.mp4" width="100%" height="200px""></video>
+            <h2>Blender Projects</h2>
+            <div class="important">3D Models created using Blender by R.S Designs.</div>
+          </div>
+          <button class="project-btn">View Project</button>
+        </div> 
+
+        <div class="wrapper" onclick="window.location='/pitch-decks-projects.html'">
+          <div class="content">
+            <img src="assets/Background.png">
+            <h2>Pitch Decks</h2>
+            <div class="important">Pitch Decks put together on Canva by R.S Designs.</div>
+          </div>
+          <button class="project-btn">View Project</button>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="container" id="section4">
+    <div class="column">
+      <div class="logo">
+          <a href="index.html">
+              <img src="assets/RS Designs Logo in white.png">
+          </a>
+      </div>
+      <p>Email: srashaad198@gmail.com </p>
+      <p>Follow Me On My Socials For More:</p>
+      <div class="socials">
+        <a href="https://wa.me/27838574219
+        " target="_blank"><i class="ri-whatsapp-line"></i></a>
+        <a href="https://github.com/RashaadSmith23" target="_blank"><i class="ri-github-line"></i></a>
+        <a href="#"><i class="ri-instagram-line"></i></a>
+      </div>
+    </div>
+    <div class="column">
+      <h4>Services</h4>
+      <a href="#">Graphic Designs</a>
+      <a href="#">Template Websites</a>
+      <a href="#">E-Commerce Websites</a>
+    </div>
+    <div class="column">
+      <h4>About</h4>
+      <a href="https://github.com/RashaadSmith23" target="_blank">GitHub Channel</a>
+    </div>
+    <div class="column">
+      <h4>More</h4>
+      <a href="contact.html">Contact Me</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+    </div>
+
+    <button id="backToTop"><img src="assets/arrow.png" style="width: 20px;"></button>
+    </footer>
+
+    <!-- Copyright Section -->
+    <div class="copyright">Copyright &copy; <span id="year"></span> R.S Designs. All Rights Reserved.</div>
+
+<script src="script.js"></script>
+</body>
+</html>
