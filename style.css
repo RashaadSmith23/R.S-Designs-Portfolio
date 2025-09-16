@@ -106,6 +106,10 @@ nav .logo {
   margin-top: 20px;
 }
 
+nav .text-logo {
+  color: white;
+}
+
 
 nav ul {
   display: flex;
@@ -188,7 +192,15 @@ nav ul li:hover::before {
   gap: 50px;
 }
 
-.projects .wrapper {
+.blender-projects {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.projects .wrapper,
+.blender-projects .wrapper {
   padding: 3rem 2rem;
   background: #27272a;
   display: flex;
@@ -198,13 +210,15 @@ nav ul li:hover::before {
   cursor: pointer;
 }
 
-.projects .wrapper:hover {
+.projects .wrapper:hover,
+.blender-projects .wrapper:hover {
   background-color: #323232;
   border-color: #fff;
   transform: .9s ease;
 }
 
-.projects .wrapper .content {
+.projects .wrapper .content,
+.blender-projects .wrapper .content {
   flex: 1;
   margin-bottom: 2rem;
 }
@@ -214,7 +228,8 @@ nav ul li:hover::before {
   height: 68%;
 }
 
-.projects .wrapper .content h2 {
+.projects .wrapper .content h2,
+.blender-projects .wrapper .content h2 {
   font-size: 1.3rem;
   background: linear-gradient(50deg, #09b47bbd, #03ffab);
   /*highlight-start */
@@ -229,7 +244,8 @@ nav ul li:hover::before {
   margin-top: 20px;
 }
 
-.projects .wrapper .content h2::after {
+.projects .wrapper .content h2::after,
+.blender-projects .wrapper .content h2::after {
   content: '';
   position: absolute;
   top: 50%;
@@ -239,7 +255,8 @@ nav ul li:hover::before {
   border-top: 1px solid #666666;
 }
 
-.projects .wrapper .content h2::before {
+.projects .wrapper .content h2::before,
+.blender-projects .wrapper .content h2::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -249,8 +266,10 @@ nav ul li:hover::before {
   border-top: 1px solid #666666;
 }
 
-.projects .wrapper .project-btn {
+.projects .wrapper .project-btn,
+.blender-projects .wrapper .project-btn {
   width: 100%;
+  margin-top: 20px;
   padding: 1rem 2rem;
   font-size: 1rem;
   color: #fff;
@@ -260,11 +279,13 @@ nav ul li:hover::before {
   text-align: center;
 }
 
-.projects .wrapper .project-btn:hover {
+.projects .wrapper .project-btn:hover,
+.blender-projects .wrapper .project-btn:hover {
   background-color: #09b47b81;
 }
 
-.projects .wrapper .content .important {
+.projects .wrapper .content .important,
+.blender-projects .wrapper .content .important {
   color: #ccc;
   text-align: center;
   margin-top: 10px;
