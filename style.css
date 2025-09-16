@@ -37,7 +37,6 @@
 img {
   width: 100%;
   display: flex;
-  pointer-events: none;
 }
 
 li, ul, a {
@@ -1023,3 +1022,4 @@ form button:hover {
   background-color: #078f61da;
   color: #18181b;
 }
+
